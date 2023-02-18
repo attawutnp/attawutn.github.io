@@ -1,390 +1,366 @@
-<!doctype html>
-<!--[if IE 7 ]>    <html lang="en-gb" class="isie ie7 oldie no-js"> <![endif]-->
-<!--[if IE 8 ]>    <html lang="en-gb" class="isie ie8 oldie no-js"> <![endif]-->
-<!--[if IE 9 ]>    <html lang="en-gb" class="isie ie9 no-js"> <![endif]-->
-<!--[if (gt IE 9)|!(IE)]><!-->
-<html lang="en-gb" class="no-js">
-<!--<![endif]-->
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!--[if lt IE 9]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <![endif]-->
-    <title>Attawut Nardkulpat</title>
-    <meta name="description" content="">
-    <meta name="author" content="WebThemez">
-    <!--[if lt IE 9]>
-        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lte IE 8]>
-		<script type="text/javascript" src="http://explorercanvas.googlecode.com/svn/trunk/excanvas.js"></script>
-	<![endif]-->
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/isotope.css" media="screen" />
-    <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="css/da-slider.css" />
-    <!-- Owl Carousel Assets -->
-    <link href="js/owl-carousel/owl.carousel.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css" />
-    <!-- Font Awesome -->
-    <link href="font/css/font-awesome.min.css" rel="stylesheet">
-	<style>
-      #map {
-        width: 500px;
-        height: 400px;
-      }
-    </style>
-</head>
-
-<body>
-    <header class="header">
-        <div class="container">
-            <nav class="navbar navbar-inverse" role="navigation">
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8"/>
+        <title>[ Attawut Nardkulpat @ BUU ]</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        
+        <!-- Font Awesome Icons -->
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet"/>
+        <!--<link href="css/bootstrap.min.css" rel="stylesheet">-->
+        
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+         <script src="js/html5shiv.js"></script>
+         <script src="js/respond.min.js"></script>
+         <![endif]-->
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <!-- http://getbootstrap.com/customize/ change "@screen-sm" -> "@screen-md" in @grid-float-breakpoint -->
+        <script src="js/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/menucollapse.js"></script>
+        <script type="text/javascript" src="js/arrow78.js"></script>
+        <script type="text/javascript" src="js/custom.js"></script>
+    </head>
+    
+    <body id="page-top" class="index">
+        
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
-                    <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"  data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="glyphicon glyphicon-search"></span>
+                    </button>
+                    <button id="button2" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
                     </button>
-                    <a href="#" class="navbar-brand scroll-top logo"><b>Attawut Nardkulpat</b></a>
-
-                </div>
-                <!--/.navbar-header-->
-                <div id="main-nav" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav" id="mainNav">
-                        <li class="active"><a href="#home" class="scroll-link">Home</a></li>
-                        <li><a href="#aboutUs" class="scroll-link">About Us</a></li>
-                        <li><a href="#skills" class="scroll-link">Skills</a></li>
-                        <li><a href="#experience" class="scroll-link">Publication</a></li>
-                        <li><a href="#portfolio" class="scroll-link">Teaching</a></li>
-                        <li><a href="#contactUs" class="scroll-link">Contact Us</a></li>
-                    </ul>
-                </div>
-                <!--/.navbar-collapse-->
-            </nav>
-            <!--/.navbar-->
-        </div>
-        <!--/.container-->
-    </header>
-    <!--/.header-->
-    <div id="#top"></div>
-    <section id="home">
-        <div class="banner-container">
-            <img src="images/banner-bg12.jpg" alt="banner" />
-            <div class="container banner-content">
-                <div id="da-slider" class="da-slider">
-                    <div class="da-slide">
-                        <h2>Geoinformatics</h2>
-                        <p>Geospatial modelling, Optical & SAR, Interferometry SAR</p>
-                        <div class="da-img"></div>
-                    </div>
-                    <div class="da-slide">
-                        <h2>Data Science</h2>
-                        <p>Data Exploration & Extraction, Machine Learning (Prediction & Classification), Data Visualization</p>
-                        <div class="da-img"></div>
-                    </div>
-                    <div class="da-slide">
-                        <h2>Web Developer & Database</h2>
-                        <p>HTML5, CSS, Javascript, Wordpress, SQL</p>
-                        <div class="da-img"></div>
-                    </div>
-					          <div class="da-slide">
-                        <h2>Web Interaction & Map Service</h2>
-                        <p>R, Shiny, leaflet, Geoserver</p>
-                        <div class="da-img"></div>
-                    </div>
-				<!--  <nav class="da-arrows">
-                        <span class="da-arrows-prev"></span>
-                        <span class="da-arrows-next"></span>
-                    </nav> -->
-                </div>
-            </div>
-        </div>
-    </section>
-    <section id="aboutUs" class="secPad">
-        <div class="container">
-            <div class="heading text-center">
-                <!-- Heading -->
-				<img src="images/9531.jpg" alt="center" height="500" width="333" />
-                <h1>Attawut Nardkulpat</h1>
-                <h3><b>Research Officer</b></h3>
-                <p>Faculty of Geoinformatics, Burapha University</p>
-                <h3><br><a href="download/CV.pdf">CV (English)</a></h3>
-                <h3><br><a href="https://www.linkedin.com/in/attawutn/">Linkedin</a></h3>
-                <br>
-
-  
-            </div>
-            <div class="heading text-center">
-              <p><b>About me</b></p>           
-              <p>I'm Research Officer at Faculty of Geoinformatics, Burapha University, I research about Geo-spatial Modelling (Hydrological Model,</p>
-              <p>Potential Surface Analysis, Space-Time Analysis),Remote Sensing (Optical & SAR data applied to Earthquake, Crop Monitoring, </p>
-              <p>Coastal Monitoring and Coral Reef), Data science especially Machine Learning, Deep Larning & Natural Language Processing).</p>
-              <p>I received Geoinformatics Master Degree and Geography Bachelor Degree from Faculty of Geoinformatics, Burapha University.</p>
-              <p>and now i'm PhD (Geoinformatics) student at Srinakharinwirot University.</p>
-            </div>
-
-        </div>
-    </section>
-    <!--Quote-->
-    <!--Skills-->
-    <section id="skills" class="secPad white">
-    	<div class="container">
-        <div class="heading text-center">
-                <!-- Heading -->
-                <h2>My Skills</h2>
-            </div>
-        	<div class="row">
-                <div class="col-sm-6">
-                    <h2>Geospatial Skills</h2>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Remote Sensing (Optical&SAR)</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Machine Learning & Deep Learning</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">90% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">GIS</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Natural Language Processing</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">80% Complete </span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6">
-                    <h2>Programming Skills</h2>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">Python</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                    <span class="sr-only">80% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">R</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
-                                    <span class="sr-only">70% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-2 skilltitle">HTML&CSS</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                    <span class="sr-only">50% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-					<div class="row">
-                        <div class="col-md-2 skilltitle">Javascript</div>
-                        <div class="col-md-8">
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                                    <span class="sr-only">50% Complete</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <span><a href="#"><img border="0" height="50" width="120" src="images/cropped-GIS-BUU-LOGO-02.png"/></a></span>
                 </div>
                 
-            </div>
-        </div>
-        <div class="container">
-            <div class="heading text-center">
-                 <!-- Heading -->
-                 <h2>Training And Professional Development</h2>
-                 <p><b>Atmospheric Correction of Earth Observation Data for Environmental Monitoring: Theory and Best Practices</b>. COSPAR Capacity Building Workshop. GISTDA Training Center, Geo-Informatics and Space Technology Development Agency (Public Organization), Bangkok, Thailand, 4/11/2013 – 8/11/2013</p>
-                 <p><b>Geo-informatics Technology for Environmental and Disaster Monitoring</b>. Sirindhon Center for Geo-informatics (SCGI), GISTDA, Space Krenovation Park, Chonburi, Thailand, 28/10/2015 – 30/10/2015</p>
-                 <p><b>ECHOES IN SPACE : Introduction to Radar Remote Sensing</b>. Eo-college, European Space Agency (ESA), Online, 2017</p>
-                 <p><b>Intro to Data Analytics and Big Data</b>. Chulalongkorn University, Online, 2019</p>
-                 <p><b>Statement of Accomplishment For Data Scientist with R Track</b>. DataCamp, Online, 2019</p>
-                 <p><b>Statement of Accomplishment For Python Programming Track</b>. DataCamp, Online, 2019</p>
-                 <p><b>Machine Learning by Andrew Ng</b>. Stanford University, Online, 2019</p>
-                 <p><b>Python for Data Science</b>. Eastern Software Park, Burapha University, 2019</p>
-                 <p><b>MICROSOFT TECHNOLOGY ASSOCIATE : Introduction to Programming using Python</b>. MICROSOFT , 2019</p>            
-                 <p><b>Deep Learning Specialization</b>. Coursera, Online, 2020</p>
-                 <p><b>Natural Language Processing Specialization </b>. Coursera, Online, 2020</p>
-                 <p><b>Generative Adversarial Networks (GANs) Specialization</b>. Coursera, Online, 2020</p>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-awards-content').show();" href="#">Home</a>
+                        </li>
+                        <li class="page-scroll">
+                            <li><a onclick="javascript:reset_menus();$('#tab-publications-content').show();" href="#publications">Publications</a></li>
+                        </li>
 
-
-            </div>
-        </div>
-    </section>
-
-    <!--Experience-->
-    <section id="experience" class="secPad">
-    	<div class="container">
-           <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Publication</h2>
-                <p><b>Attawut Nardkulpat</b>, Ratthaphum Khemchaloem and Phurith Meeprom. 2012. Coastal Erosion in Eastern Thailand. WEBCON2 at 33rd Asian Conference on Remote Sensing 2012 (ACRS 2012), Chon Buri, Thailand, 26 – 30 November 2012</p>
-                <p><b>Attawut  Nardkulpat</b>, Pattama Phoedee, Supan  Karnchanasutham, Kaew Nualchawee and Preesan Rakwatin. 2017. Using Differential InSAR Technique for Coseismic Displacement study of Mw 6.3 Chiang Rai Earthquake, Thailand. Journal of RESGAT, Vol.18 Special Issue, ISSN: 1513-4261 (Master Degree claim)</p>
-                <br><p>Chotika Ratichaliyakul, Supan Karnchanasutham, Narong Pleerux, Kaew Nualchawee and <b>Attawut Nardkulpat</b>. 2017. Extraction Rice Field using Time-series Sentinel-1 : Study case Ranode District, Songkhla Province. Journal of RESGAT, Vol.18, No.18, May-Dec 2017, ISSN: 1513-4261</p>
-                <br><p><b>Attawut Nardkulpat</b> and Supan  Karnchanasutham. 2017. The Classification of Mangrove Vegetation, Using Multispectral Image in Chanthaburi Province. Journal of Geoinformation Techonology of Burapha University, Year 2, Vol 4, July – Dec 2017, ISSN: 2465-4469</p>
-                <br><p>Chotika Ratichaliyakul, Supan Karnchanasutham, Narong Pleerux, Kaew Nualchawee and <b>Attawut Nardkulpat</b>. 2019. The Evaluation of Suitable area for planting of Sangyod rice. Case study: Ranode district, Songkhla province by using physical factor from Sangyod rice area, Pattalung province. King Mongkut’s Agriculture Journal, Vol 37, No. 3, September – December 2019, ISSN: 0857-0108</p>
-                <p><b>Attawut  Nardkulpat</b> and Narong Pleerux. 2019. Applying GIS to Analyze Road Accidents in Bang Lamung District, Chon Buri Province, Thailand. Journal of RESGAT, Vol.20 Special Issue, ISSN: 1513-4261</p>
-                <p>Narong Pleerux and <b>Attawut Nardkulpat</b>. 2019. IDENTIFICATION OF ROAD ACCIDENT RECURRENCE IN  SRI RACHA DISTRICT, CHON BURI PROVINCE. The 40th Asian Conference on Remote Sensing (ACRS 2019) October 14-18, Korea, 2019</p>
-                <p>Umaphorn Deephrom, Narong Pleerux, Patipan Wangsan, Prapapan Yenjit, Gedsara Kittiwongsakda, Runchida Jaiklom and <b>Attawut Nardkulpat</b>. 2020. Creating Data Mining Of Maritime Attraction from Social Medias. The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</p>
-                <p>Noppa Sivalak, Narong Pleerux, Pakawat Hasook, Mallika Khumtong, Chanapa Congsomsuk, Pattaraporn Supprom and <b>Attawut Nardkulpat</b>. 2020. Applying Geographic Information System to Analysis of Road Accident Density in the Eastern Economic Corridor Area. The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</p>
-                <p>Pnnamee Chuawong, Narong Pleerux, Ureerat Suksawatchon, Rungatith Buchain and <b>Attawut Nardkulpat</b>. 2020. Spatio-Temporal Data Mining of Tourist Attractions from Social Medias. The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</p>
-            </div>
-    </div>
-
-    </section>
-
-
-   <!--Portfolio-->
-    <section id="portfolio" class="page-section section appear clearfix secPad">
-        <div class="container">
-
-            <div class="heading text-center">
-                <!-- Heading -->
-                <h2>Teaching</h2>
-                <p><b>Teaching Assistant: Geographic Information System 3 (Web GIS)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2015</p>
-                <br><p><b>Teaching Assistant: Script Programming (Web application with JavaScript)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2015</p>
-                <br><p><b>Lecturer : Introduction ESA Sentinel Application Platform (SNAP) and Surface Subsidence Monitoring with SNAP</b>, SAR data application for measuring Mae Chan fault displacement training workshop. 19 - 21 June 2017. Chiang Rai Rajabhat University, Chiang Rai, 2017</p>
-                <br><p><b>Lecturer : Introduction to Remote Sensing & Spectroradiometer (Remote Sensing 1)</b>, Faculty of Geoinformatics , Burapha University, Chon Buri, Thailand, 2018</p>
-                <br><p><b>Lecturer : SAR Remote Sensing and Its Applications (87852061 : Remote Sensing for Master Degree, English Taught, Teach instead of Dr. Pattama  Phodee)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2018</p>
-                <br><p><b>Lecturer : AGRICULTURE MONITORING WITH SAR</b>, Office of Agricultural Economics, 24 December 2018. Topland Hotel, Phitsanulok, 2018</p>
-                <br><p><b>Lecturer : Urban Planning and Geographical Information System (GIS)</b>, The Office of Disease Prevention and Contrpl 6, 6 - 8 Febuary 2019. The Office of Disease Prevention and Contrpl 6, Chon Buri, 2019</p>
-                <br><p><b>Lecturer : Introduction to Remote Sensing & Spectroradiometer (Remote Sensing 1)</b>, Faculty of Geoinformatics Burapha University, Chon Buri, Thailand, 2019</p>
-                <br><p><b>Lecturer : Geospatial #Trend</b>, Department of Geography, Faculty of Social Science, Srinakharinwirot University, Bangkok, 2019</p>
-                <br><p><b>Lecturer : Geospatial Analysis</b>, Trat Provincial Public Health Office, Trat, 2020</p>
-                <br><p><b>Teaching Assistant: 87633759 Microwave Remote Sensing</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2020, Burapha University, Chon Buri, Thailand, 2019</p>
-                <br><p><b>Lecturer & Practice: 87651260 Applications of Geographic Information System: Master Degree (Natural Language Processing, 4 Week)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2020</p>
-                <br><p><b>Lecturer & Practice: 87613259 Scripting Language (An Introduction to Machine Learning, 4 Week)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2020</p>
-                <br><p><b> Lecturer & Practice: 87657260 Geoinformatics for Natural Resources Management (Land-Use Land-Cover Classification by Machine Learning, 2 Week)</b>, Faculty of Geoinformatics, Burapha University, Chon Buri, Thailand, 2020</p>
-
-            </div>
-            
-			<div class="col-sm-12 text-center">
-            
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-courses-content').show();" href="#courses">Courses</a>
+                        </li>
+                        <li class="page-scroll">
+                            <a onclick="javascript:reset_menus();$('#tab-contact-content').show();" href="#contact">Contact</a>
+                        </li>
                        
-            </div>           
-    </section>
-
-	<!--Contact -->
-    <section id="contactUs" class="page-section secPad">
-        <div class="container">
-
-            <div class="row">
-                <div class="heading text-center">
-                    <!-- Heading -->
-                    <h2>Let's Keep In Touch!</h2>
-                    <p>Thank you for visiting out my profile. If you would like to get into contact with me, please send email or call me  from this information. Thx</p>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+                
+                <!-- search box submenu -->
+                <div class="collapse" id="bs-example-navbar-collapse-2">
+                    <gcse:search></gcse:search>
+                        </div>
+                
+            </div><!-- /.container-fluid -->
+        </nav>
+        
+        <section>
+            <!-- Place this tag where you want the search results to render -->
+            <gcse:searchresults-only></gcse:searchresults-only>
+                </section>
+        
+        <!-- Home Section -->
+        <section  name="home" id="home" style="margin-top:40px">
+            <div class="container">
+                <div align="left" class="col-md-3">
+                    <a target="_blank" href="images/S__7889002.jpg">
+                        <img id="mobile-img" src="images/S__7889002.jpg" width="250" border="0" height="277" alt=""></a>
+                </div>
+                <div align="left" class="col-md-4">
+                    <h2>Attawut Nardkulpat
+                        <h5><i>PhD Candidate, Burapha University, Thailand</i></h5>
+                    </h2>
+                    
+                    <h4>Research Officer<br>
+                        <a href="http://geo.buu.ac.th/">Faculty of Geoinformatics</a><br>
+                        <a href="http://buu.ac.th/">Burapha University</a><br>
+                        <!--
+                         P.O. Box 20537<br>
+                         1678 Nicosia, CYPRUS<br>-->
+                        Tel/Fax: <a href="tel:0035722892755">+6685-7006196</a><br/>
+                        Email:
+                        <script language="JavaScript">
+                            <!--
+                            document.write("&nbsp;");
+                            spiderjam('attawut','buu.ac.th');
+                            -->
+                            </script><br/>
+                        Location: <a target="_blank" href="https://goo.gl/maps/9VM3GkCEwjGxQReQ8">Maps</a>
+                    </h4>
+                    <h4><i>Expertise: Geosptial Technology &amp; Data Science &amp; Deep Learning &amp; Natural Language Processing </i> 
+                    
+                </div>
+                
+                <i class="twittertop" style="display:none;" id="t1">
+                    <div id="news" tyle="text-align: left"  class="col-md-5">&nbsp;
+                        <center><a class="twitter-timeline" href="https://twitter.com/attawutnp" data-chrome="nofooter" data-widget-id="346662554203992065" data-width="900"
+                            data-height="300">Tweets
+                            by @attawutnp</a>
+                        <script>!function (d, s, id) {
+                            var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                            if (!d.getElementById(id)) {
+                                js = d.createElement(s);
+                                js.id = id;
+                                js.src = p + "://platform.twitter.com/widgets.js";
+                                fjs.parentNode.insertBefore(js, fjs);
+                            }
+                        }(document, "script", "twitter-wjs");</script></center>
+                    </div>
+                </i>
+                
+                <!--<p><a href="#" class="btn btn-primary">More &raquo;</a></p>-->
+                <b class="expandshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="width: 100%;" onclick="javascript:$('.allshow').show();$('.noshow').hide();$('.collapseshow').show();$('.expandshow').hide();">EXPAND ALL SECTIONS <span class="glyphicon glyphicon-chevron-down"></span></button>
+                </b>
+                <b class="collapseshow" style="display:none;" id="tab-1">
+                    <button class="btn btn-primary btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('.allshow').hide();$('.noshow').show();$('.expandshow').show();$('.collapseshow').hide();">COLLAPSE ALL SECTIONS <span class="glyphicon glyphicon-chevron-up"></span></button>
+                </b>
+                
+            </div>
+        </section>
+        
+        <!-- Home Section -->
+        <section name="intro" id="intro">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    <!--<h2>Welcome!</h2>-->
+                    
+                    <b class="noshow" style="display:none;" id="tab-1">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-intro-content').toggle();">Introduction <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    
+                    <div class="allshow" style="display:none;" id="tab-intro-content">
+                        <hr class="star-primary">
+                        
+                        <p class="lead">
+                            I'm Research Officer at Faculty of Geoinformatics, Burapha University, I research about Geo-spatial Modelling (Hydrological Model, Potential Surface Analysis, Space-Time Analysis), Remote Sensing (Optical & SAR data applied to Earthquake, Crop Monitoring, Coastal Monitoring and Coral Reef), Data science especially Machine Learning, Deep Larning & Natural Language Processing). I received Geoinformatics Master Degree and Geography Bachelor Degree from Faculty of Geoinformatics, Burapha University. and now i'm PhD (Geoinformatics) student at Srinakharinwirot University.
+                        
+                        </p>
+                        <p>
+                        His primary research interests include <b>Geospatial Technology</b>, <b>Data Science</b>,<b>Deep Learning</b>,<b> Natural Language Processing</b>
+                        
+                        
+                        <p><a href="CV_Attawut_N_ENG12012023.pdf" class="btn-sm btn-primary">CV (PDF)&raquo;</a>
+                        <p><a href="https://www.linkedin.com/in/attawutn/" class="btn-sm btn-primary">LINKEDIN&raquo;</a>
+                    </div>
+                    
                 </div>
             </div>
-
-            <div class="row mrgn30">
-                <div class="col-sm-4">
-                    <h4>Address:</h4>
-                    <address>
-                        Geo-informatics Faculty<br>
-                        Burapha University<br>
-                        169 Long-Hard Bangsaen Road, Saen Sook Sub-district,<br>
-                        Mueang District, Chonburi 20131<br>
-                    </address>
-                    <h4>Phone:</h4>
-                    <address>
-                        (+66)085-700-6196<br>
-                    </address>
-					<h4>E-mail:</h4>
-                    <address>
-                        attawut@buu.ac.th<br>
-                        earmla.n@hotmail.co.uk
-                    </address>
+        </section>
+        
+        <div class="twitterlow" style="display:none;" id="t1">
+            <!-- News Section -->
+            <section  name="news"  id="news">
+                <div class="container lead">
+                    <div style="text-align: left; margin-top:10px" class="col-md-12">
+                        
+                        <b class="noshow" style="display:none;" id="tab-2">
+                            <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-news-content').toggle();">News  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                        </b>
+                        <b class="allshow" style="display:none;" id="tab-news-content">
+                            
+                            <hr class="star-primary">
+                            
+                            <h2>News</h2>
+                            <center><a class="twitter-timeline" href="https://twitter.com/attawutnp" data-chrome="nofooter" data-widget-id="346662554203992065">Tweets
+                                by @dmslcy</a>
+                            <script>!function (d, s, id) {
+                                var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https';
+                                if (!d.getElementById(id)) {
+                                    js = d.createElement(s);
+                                    js.id = id;
+                                    js.src = p + "://platform.twitter.com/widgets.js";
+                                    fjs.parentNode.insertBefore(js, fjs);
+                                }
+                            }(document, "script", "twitter-wjs");
+                            </script>
+                            </center>
+                        </b>
+                    </div>
                 </div>
-				<div id="map"></div>
-				<script>
-				 function initMap() {
-				  var myLatLng = {lat: 13.277199, lng: 100.925768};
-
-				  var map = new google.maps.Map(document.getElementById('map'), {
-					zoom: 15,
-					center: myLatLng
-				  });
-
-				  var marker = new google.maps.Marker({
-					position: myLatLng,
-					map: map,
-					title: 'Hello World!'
-					});
-				  }
-				</script>
-				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBCQq1eMhrBYv-nJRB-sDtMvVQN9-mITcs&callback=initMap">  </script>
-						</div>
-					</div>
-					<!--/.container-->
-				</section>
-    <footer>
-        <div class="container">
-            <div class="social text-center">
-                <a href="https://github.com/attawutn"><i class="fa fa-github-square"></i></a>
-                <a href="https://twitter.com/attawutnp"><i class="fa fa-twitter-square"></i></a>
-                <a href="https://www.linkedin.com/in/attawutn/"><i class="fa fa-linkedin-square"></i></a>
-            </div>
-
+            </section>
         </div>
-    </footer>
-    <!--/.page-section-->
-    <section class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    Copyright 2021 | All Rights Reserved  -- Template by <a href="http://webThemez.com">WebThemez.com</a>
+        
+        <!-- Research Section -->
+        <section  name="publications" id="publications">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-3">
+                        <button class="btn btn-default btn-lg btn-block" style="display: block; width: 100%;" onclick="javascript:$('#tab-publications-content').toggle();">Publications  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-publications-content">
+                        <hr class="star-primary">
+                        
+                        <h2><b>Publications</b></h2>
+                        <h4>
+                            <!--
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://en.wikipedia.org/wiki/H-index"><font color=white>h-index</font></a>: 25
+                            </span>&nbsp;
+                            <span class="label label-warning">
+                                <a target="_blank" href="https://scholar.google.com/citations?user=HCxwGIkAAAAJ&hl=en"><font color=white>Citations</font></a>: 2867
+                            </span>&nbsp;
+
+                        --><span class="label label-default">
+                            <a target="_blank" href="https://scholar.google.com/citations?hl=en&user=VgAc0dcAAAAJ"><font color="white">Google Scholar</font></a>
+                        </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.scopus.com/authid/detail.uri?authorId=57215436492"><font color="white">Scopus</font></a>
+                            </span>&nbsp;
+                            <span class="label label-default">
+                                <a target="_blank" href="https://orcid.org/0000-0002-9452-4387"><font color="white">ORCID</font></a>
+                            </span>&nbsp;
+
+                            <span class="label label-default">
+                                <a target="_blank" href="https://www.researchgate.net/profile/Attawut-Nardkulpat"><font color="white">Researchgate</font></a>
+                            </span>
+                            
+                            
+                        </h4>
+
+                        <h3><b>Journal</b></h3>
+                        <ul>
+                            
+                            </li>
+                            
+                            <li><span class="label label-success">IEEE</span> <a target="_blank" href="https://doi.org/10.1109/jstars.2022.3230149">"PCL–PTD Net: Parallel Cross-Learning-Based Pixel Transferred Deconvolutional Network for Building Extraction in Dense Building Areas With Shadow"</a>, Wuttichai Boonpook; Yumin Tan; Kritanai Torsri; Patcharin Kamsing; Peerapong Torteeka; <b>Attawut Nardkulpat</b>, <b> IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing</b>,  Vol. 16, 2023, doi:10.1109/jstars.2022.3230149 </li>
+                            <li><span class="label label-success">MDPI</span> <a target="_blank" href="https://doi.org/10.3390/ijgi12010014">"Deep Learning Semantic Segmentation for Land Use and Land Cover Types Using Landsat 8 Imagery"</a>, Wuttichai Boonpook; Yumin Tan; <b>Attawut Nardkulpat</b>; Kritanai Torsri; Peerapong Torteeka; Patcharin Kamsing; Utane Sawangwit; Jose Pena; Montri Jainaen, <b>ISPRS International Journal of Geo-Information</b>, vol.12(1), 2023, doi:10.3390/ijgi12010014</li>
+                            <li><span class="label label-success">WSEAS</span> <a target="_blank" href="https://doi.org/10.37394/232015.2022.18.119">"Water Consumption Assessment of Mangosteen: A Bottom-Up Approach"</a>, Narong Pleerux; Narissara Aimkuy; <b>Attawut Nardkulpat</b>, <b>WSEAS TRANSACTIONS ON ENVIRONMENT AND DEVELOPMENT</b>, vol.18, 2022, doi:10.37394/232015.2022.18.119</li>
+                            <li><span class="label label-success">TCI</span> <a target="_blank" href="#">"The Evaluation of Suitable area for planting of Sangyod rice. Case study: Ranode district, Songkhla province by using physical factor from Sangyod rice area, Pattalung province"</a>, Chotika Ratichaliyakul; Supan Karnchanasutham; Narong Pleerux; Kaew Nualchawee; <b>Attawut Nardkulpat</b>, <b>King Mongkut’s Agriculture Journal</b>, Vol 37, No. 3, October – December 2019, ISSN: 0857-0108</li>
+                            <li><span class="label label-success">TCI</span> <a target="_blank" href="#">"Applying GIS to Analyze Road Accidents in Bang Lamung District, Chon Buri Province, Thailand"</a>, <b>Attawut Nardkulpat</b>; Narong Pleerux, <b>Journal of Remote Sensing and GIS Association of Thailand</b>, Vol.20 Special Issue, ISSN: 1513-4261</li>
+                            <li><span class="label label-success">TCI</span> <a target="_blank" href="#">"Extraction Rice Field using Time-series Sentinel-1 : Study case Ranode District, Songkhla Province"</a>, Chotika Ratichaliyakul; Supan Karnchanasutham; Narong Pleerux; Kaew Nualchawee; <b>Attawut Nardkulpat</b>, <b>Journal of Remote Sensing and GIS Association of Thailand</b>, Vol.18, No.18, May - Dec 2017, ISSN: 1513-4261</li>
+                            <li><span class="label label-success">TCI</span> <a target="_blank" href="#">"Using Differential InSAR Technique for Coseismic Displacement study of Mw 6.3 Chiang Rai Earthquake, Thailand"</a>, <b>Attawut Nardkulpat</b>; Pattama Phoedee; Supan Karnchanasutham; Kaew Nualchawee; Preesan Rakwatin, <b>Journal of Remote Sensing and GIS Association of Thailand</b>, Vol.18 Special Issue, ISSN: 1513-4261 </li>
+
+
+
+                        </ul>
+                        <h3><b>Proceeding</b></h3>
+                        <ul>
+                            </li>
+                            <li><span class="label label-success">CyMaEn</span> <a target="_blank" href="#">"TripAdvisor Restaurant Customer Reviews Analysis in Bangkok, Thailand"</a>, Narong Pleerux; Wuttichai Boonpook; Ammarawadee Chaiyo; <b>Attawut Nardkulpat</b>, Thailand In 2023 International Conference On Cyber Management And Engineering (CyMaEn) 26-27 Jan 2023</li>
+                            <li><span class="label label-success">NSCIC</span> <a target="_blank" href="#">"Sentiment of accommodation customers in Chon Buri from Social "</a>, Janjira Shimchart; Rorwan Chanchamsri; Thornchai Kumwat; <b>Attawut Nardkulpat</b>; Narong Pleerux, The 7th Nation Science and Technology Conference (NSCIC 2022), Suratthani Rajabhat University, 10 – 11 March 2022</li>
+                            <li><span class="label label-success">NSCIC</span> <a target="_blank" href="#">"Classification of Para Rubber Plantations Using Machine Learning Technique: Case Study in Wang Chan District, Rayong Province"</a>, Sudapron Latang; Pattaraporn Tongkhamchum; Pantitar Somchuewiang; <b>Attawut Nardkulpat</b> ; Narong Pleerux, The 7th Nation Science and Technology Conference (NSCIC 2022), Suratthani Rajabhat University, 10 – 11 March 2022</li>
+                            <li><span class="label label-success">KU-KPS</span> <a target="_blank" href="#">"Spatio-Temporal Data Mining of Tourist Attractions from Social Medias"</a>, Pnnamee Chuawong; Narong Pleerux; Ureerat Suksawatchon; Rungatith Buchain; <b>Attawut Nardkulpat</b>, The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</li>
+                            <li><span class="label label-success">KU-KPS</span> <a target="_blank" href="#">"Applying Geographic Information System to Analysis of Road Accident Density in the Eastern Economic Corridor Area"</a>, Noppa Sivalak; Narong Pleerux; Pakawat Hasook; Mallika Khumtong; Chanapa Congsomsuk; Pattaraporn Supprom; <b>Attawut Nardkulpat</b>, The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</li>
+                            <li><span class="label label-success">KU-KPS</span> <a target="_blank" href="#">"Creating Data Mining Of Maritime Attraction from Social Medias"</a>, Umaphorn Deephrom; Narong Pleerux; Patipan Wangsan; Prapapan Yenjit; Gedsara Kittiwongsakda; Runchida Jaiklom; <b>Attawut Nardkulpat</b>, The 17th National Kasetsart University Kampaeng Saen Conference, Nakhon Pathom, Thailand, 2 – 3 December 2020</li>
+                            <li><span class="label label-success">ACRS</span> <a target="_blank" href="#">"IDENTIFICATION OF ROAD ACCIDENT RECURRENCE IN SRI RACHA DISTRICT, CHON BURI PROVINCE"</a>, Narong Pleerux; <b>Attawut Nardkulpat</b>, The 40th Asian Conference on Remote Sensing (ACRS 2019) , Korea, 14 – 18 October 2019</li>
+                            
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <!-- / .row -->
-        </div>
-    </section>
-    <a href="#top" class="topHome"><i class="fa fa-chevron-up fa-2x"></i></a>
+        </section>
+        
+    
+ 
 
-    <!--[if lte IE 8]><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><![endif]-->
-    <script src="js/modernizr-latest.js"></script>
-    <script src="js/jquery-1.8.2.min.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/jquery.isotope.min.js" type="text/javascript"></script>
-    <script src="js/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
-    <script src="js/jquery.nav.js" type="text/javascript"></script>
-    <script src="js/jquery.cslider.js" type="text/javascript"></script>
-    <script src="js/custom.js" type="text/javascript"></script>
-    <script src="js/owl-carousel/owl.carousel.js"></script>
-</body>
+        <!-- Courses Section -->
+        <section  name="courses" id="courses">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-5">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-courses-content').toggle();">Courses  <span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-courses-content">
+                        <hr class="star-primary">
+                        <h2><b>Courses</b></h2>
+                        <ul>
+                            <li><span class="label label-success">SWU (2022)</span> <a href="#">Spatial Database: Bachelor’s degree (PostgreSQL and PostGIS,)</a></li>
+                            <li><span class="label label-success">BUU:87657260 (2021)</span> <a href="#">Geoinformatics for Natural Resources Management: Master’s degree (Land-Use Land-Cover Classification by Machine Learning & Deep Learning, 3 Week)</a></li>
+                            <li><span class="label label-success">SWU (2021)</span> <a target="_blank" href="#">PROGRAMMING FOR GEOGRAPHER: Bachelor’s degree (Introduction of GeoPandas & Scikit-learn, 2 Week)</a></li>
+                            <li><span class="label label-success">BUU:87651260 (2021)</span> <a href="#">Applications of Geographic Information System: Master’s degree (Natural Language Processing, 3 Week)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+        <!-- Home Section -->
+        <section  name="contact" id="contact">
+            <div class="container lead">
+                <div style="text-align: left; margin-top:10px" class="col-md-12">
+                    
+                    <b class="noshow" style="display:none;" id="tab-10">
+                        <button class="btn btn-default btn-lg btn-block"  style="display: block; width: 100%;" onclick="javascript:$('#tab-contact-content').toggle();"><b>Contact</b><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    </b>
+                    <div class="allshow" style="display:none;" id="tab-contact-content">
+                        
+                        <hr class="star-primary">
+                        <h2>Contact</h2>
+                        <div class="container lead">
+                                                        
+                            <div style="text-align: center; margin-top:10px" class="col-md-12">
+                                <h4><b>OFFICE ADDRESS</b></h4>
+                                <p>Faculty of Geo-Informatics Burapha University<br/>
+                                169 Thanon Long Had Bangsaen<br/>
+                                Saen Suk, Chon Buri District<br/>
+                                Chon Buri 20131<br/>
+
+                                Personal Tel: <a href="#">085 700 6196</a><br/>
+                                Office Tel1: <a href="#">038 102 328</a><br/>
+                                Office Tel2: <a href="#">090 998 2741</a><br/>
+                                Office Fax: <a href="#">038 102 379</a><br/>
+                                <br/>
+                                </p>
+                            </div>
+                            
+                            <div style="text-align: center; margin-top:10px" class="col-md-12">
+                                <h4>OFFICE DIRECTIONS</h4>
+                                <p><iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=100.92172980308533%2C13.275205954762654%2C100.92881083488466%2C13.279810896457098&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/#map=18/13.27751/100.92527">View Larger Map</a></small>
+                                </p>
+                            </div>
+                        </div>
+                        <hr class="star-primary">
+                    </div>
+                    
+                    </section>
+        
+        <hr class="star-primary">
+        <footer>
+            <small>
+                <center>
+                    © 2015 | D. Zeinalipour. Credits: AR template
+                    <a onclick="javascript:$('#credit').toggle();"><img border="0" src="images/ccby.png"/></a>
+                    <div style="display:none;" id="credit">[AR template available under Creative Commons CC BY 4.0 licence:
+                        <a href="https://github.com/dmsl/academic-responsive-template" target="_blank">
+                            https://github.com/dmsl/academic-responsive-template
+                        </a> ]
+                    </div>
+                </center>
+            </small>
+        </footer>
+        
+    </body>
+    
 </html>
